@@ -17,3 +17,4 @@
     </tr>
 <?php endforeach; ?>
 </table>
+<?= anchor('login/', 'Palaa takaisin kirjautumissivulle') ?>
