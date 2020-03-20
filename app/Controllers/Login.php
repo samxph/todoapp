@@ -58,7 +58,7 @@ class Login extends BaseController {
             
             if (!$this->validate([
                 'user' => 'required|min_length[8]|max_length[30]',
-                'password' => 'required|min_length[8]|max_length[30]',
+                'password' => 'required|min_length[1]|max_length[30]',
             ])) {
                 echo view('templates/header', ['title' => LOGIN_TITLE]);
                 echo view('login/login');

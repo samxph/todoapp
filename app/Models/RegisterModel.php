@@ -6,7 +6,7 @@ class RegisterModel extends Model {
     protected $table = 'user';
 
     protected $allowedFields = ['username','password','firstname', 'lastname'];
-
+/*
     public function check ($username,$password) {
         $this->where('username', $username);
         $query = $this->get();
@@ -18,7 +18,7 @@ class RegisterModel extends Model {
             }
         }
         return null; // Null will be returned, if no user with given username
-    }
+    } */
 
 }
 

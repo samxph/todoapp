@@ -5,18 +5,10 @@
     </div>
     <div class="form-group">
         <label>Username</label>
-        <input 
-        class="form-control"
-        name="user"
-        placeholder="Enter username" 
-        maxlength="30">
+        <input class="form-control" name="user" placeholder="Enter username" maxlength="30">
         <label>Password</label>
-        <input 
-        class="form-control" 
-        name="password" 
-        placeholder="Enter password" 
-        maxlength="30">
+        <input class="form-control" type="password" name="password" placeholder="Enter password" maxlength="30">
     </div>
-<button class="btn btn-primary">Login</button>
-<?= anchor('login/register','Register') ?>
+    <button class="btn btn-primary">Login</button>
+    <?= anchor('login/register', 'Register') ?>
 </form>
